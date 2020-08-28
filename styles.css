@@ -1,0 +1,140 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    background-image: linear-gradient(to right, #7f6a99, #a06d9d, #c0709a, #dc768f, #f08080);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlogo a{
+    font-weight: bold;
+    padding: 1em;
+    margin: 0px;
+    text-decoration: none;
+    color: inherit;
+}
+ul a{
+    padding: 1em;
+    text-decoration: none;
+    color: inherit;
+}
+ul a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom, #000000, #030303, #070707, #0a0a0a, #0d0d0d);
+}
+.hero1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero1 p{
+    padding: 1em;
+}
+.hero2 {
+    display: flex;
+    align-self: center;
+}
+.CSSsection{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/IMG/midle1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.CSScover{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2),rgba(0,0,0,0.4),rgba(0,0,0,2));
+}
+.CSS1{
+    flex: 1;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.CSS2{
+    height: 65vh;
+    margin: 2em;
+    background-image: linear-gradient(to left, #7f6a99, #a06d9d, #c0709a, #dc768f, #f08080);
+    display: flex;
+    flex-direction: row;
+}
+.section1{
+    color: black;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1 p{
+    padding: 2em;
+}
+.section2{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section2 a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.gitsection{
+    background-image: url(/IMG/Main1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+}
+.gitcover{
+    height: 50vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.2),rgba(0,0,0,0.6),rgb(0,0,0,0.9),rgba(0,0,0,1));
+}
+.git1{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.git1 p{
+    padding: 2em;
+}
+.git2{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.git2 a{
+    text-decoration: none;
+    color: inherit;
+}
+.JSsection{
+    height: 100vh;
+}
